@@ -4,8 +4,6 @@ export function Counter() {
   const [counter, setCounter] = useState(0);
 
   function increment() {
-    console.log('Incrementing...');
-
     setCounter(counter + 1);
   }
 
