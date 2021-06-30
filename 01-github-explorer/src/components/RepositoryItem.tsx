@@ -1,4 +1,6 @@
-export function RepositoryItem(props) {
+import { IRepositoryItemProps } from "../interfaces/repository-props.interface.";
+
+export function RepositoryItem(props: IRepositoryItemProps) {
   return (
     <li>
       <strong>{ props.repository?.name }</strong>
